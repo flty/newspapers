@@ -34,7 +34,7 @@ req = s.get(url)
 
 url1 = 'http://www.gxpx365.com/jsp/portal/logining1.jsp'
 
-name = u'ΑυÒδ»Τ19820126'
+name = u' '
 
 req = s.post(url1, data= {'name':name.encode('gb2312'),'pwd':'8888','role':'student'})
 
